@@ -9,8 +9,7 @@ It consists of four tasks and one project.
 
 ## Tasks
 
-- **1. Permutations and Combinations** - Lady Tasting Tea experiment with
-twelve cups of tea. Six have the milk in first and the other six having tea in first. A person claims they have the special power of being able to tell whether the tea or the milk went into a cup first upon tasting it.
+- **1. Permutations and Combinations** - Lady Tasting Tea experiment with twelve cups of tea. Six have the milk in first and the other six having tea in first. A person claims they have the special power of being able to tell whether the tea or the milk went into a cup first upon tasting it.
 Calculate, using Python, the probability that they select the correct six cups.
 
 - **2. numpy's Normal Distribution** - Generate a sample of one hundred thousand values using the function with mean 10.0 and standard deviation 3.0. Use the scipy.stats.shapiro() function to test whether your sample came from a normal distribution. Explain the results and output.
@@ -30,7 +29,7 @@ Perform t-tests and ANOVA on this dataset while describing the dataset and expla
 
 ## Installations
 
-I used [openincolab.com](https://openincolab.com/) to generate the following clickable link.It opens the `tasks.ipynb` notebook 
+I used [openincolab.com](https://openincolab.com/) to generate the following clickable link. It opens the `tasks.ipynb` notebook 
 in [Google Colab](https://colab.research.google.com/github/PCM11/applied-statistics/blob/main/tasks.ipynb).
 
 To further explore this dataset you need to download python, which can be installed through [anaconda](https://www.anaconda.com

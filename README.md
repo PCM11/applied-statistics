@@ -8,18 +8,24 @@ This repository contains my assessment submission for 24-25: 8651 - APPLIED STAT
 It consists of four tasks and one project.
 
 ## Tasks
+<img src="https://img.favpng.com/8/7/10/task-computer-icons-clip-art-png-favpng-cRghvHXeCmiU1LQdzYGEPSAGw.jpg" width="140" height="140">
 
-- **1. Permutations and Combinations** - Lady Tasting Tea experiment with twelve cups of tea. Six have the milk in first and the other six having tea in first. A person claims they have the special power of being able to tell whether the tea or the milk went into a cup first upon tasting it.
+
+**1. Permutations and Combinations** - Lady Tasting Tea experiment with twelve cups of tea. Six have the milk in first and the other six having tea in first. A person claims they have the special power of being able to tell whether the tea or the milk went into a cup first upon tasting it.
 Calculate, using Python, the probability that they select the correct six cups.
 
-- **2. numpy's Normal Distribution** - Generate a sample of one hundred thousand values using the function with mean 10.0 and standard deviation 3.0. Use the scipy.stats.shapiro() function to test whether your sample came from a normal distribution. Explain the results and output.
+Suppose, now, you are willing to accept one error. Once they select the six cups they think had the milk in first, you will give them the benefit of the doubt should they have selected at least five of the correct cups. Calculate the probability, assuming they have no special powers, that the person makes at most one error.
+
+Would you accept two errors? Explain.
+
+**2. numpy's Normal Distribution** - Generate a sample of one hundred thousand values using the function with mean 10.0 and standard deviation 3.0. Use the scipy.stats.shapiro() function to test whether your sample came from a normal distribution. Explain the results and output.
 
 
-- **3. t-Test Calculation** - Use python to calculate the t-statistic based on the dataset containing resting heart rates for patients before and after embarking on a two-week exercise program. Compare it to the value given by scipy.stats
+**3. t-Test Calculation** - Use python to calculate the t-statistic based on the dataset containing resting heart rates for patients before and after embarking on a two-week exercise program. Compare it to the value given by scipy.stats
 
-- **4. ANOVA** - In this test we will estimate the probability of committing a type II error in specific circumstances. Create a variable called no_type_ii and set it to 0. Now use a loop to perform the following test 10,000 times.
+**4. ANOVA** - In this test we will estimate the probability of committing a type II error in specific circumstances. Create a variable called no_type_ii and set it to 0. Now use a loop to perform the following test 10,000 times.
 Use numpy.random.normal to generate three samples with 100 values each. Give each a standard deviation of 0.1. Give the first sample a mean of 4.9, the second a mean of 5.0, and the third a mean of 5.1.
-Perform one-way anova on the three samples and add 1 to no_type_ii whenever a type IIerror occurs.
+Perform one-way anova on the three samples and add 1 to no_type_ii whenever a type II error occurs.
 
 ## Project
 
@@ -37,7 +43,7 @@ download), and notebook editor, which can be found in [Visual Studio Code](https
 
 ## Analysis
 
- I imported Python libraries to analyse the data.
+I imported Python libraries to analyse the data.
 
 - Pandas - for data manipulation and analysis. It allo
 us to investigate CSV files, amongst other features.

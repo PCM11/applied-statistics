@@ -1,68 +1,84 @@
-# My applied-statistics Repository
+# Applied Statistics
+**by: Phumi Tshidi (phumitshidi@gmail.com)**
 
-** by Phumi Tshidi (phumitshidi@gmail.com)**
+<img src="https://ccap.co.ke/wp-content/uploads/2021/01/Applied-Statistics.jpg" width="350" height="300">
 
 ## About the repository
 
-This repository contains my assessment submission for 24-25: 8651 - APPLIED STATISTICS module.
-It consists of four tasks and one project.
+This repository contains various statistical tasks and analyses implemented in tasks Jupyter notebook, aimed at providing practical examples of commonly used statistical methods.
 
-## Tasks
-<img src="https://img.favpng.com/8/7/10/task-computer-icons-clip-art-png-favpng-cRghvHXeCmiU1LQdzYGEPSAGw.jpg" width="140" height="140">
+The project Jupyter notebook performs an analysis on the
+PlantGrowth dataset from R.
+
+## Contents
+
+**1. Tasks Jupyter Notebook**
+
+This notebook contains a series of statistical tasks and exercises that demonstrate core concepts in applied statistics:
+
+- **Permutations and Combinations:** Explore combinatorial methods used in statistics.
+
+- **NumPy's Normal Distribution:** Learn about normal distribution and how to simulate it using NumPy.
+
+- **t-Test Calculation:** Perform a t-test for hypothesis testing on sample data.
+
+- **ANOVA (Analysis of Variance):** Conduct an ANOVA test to compare the means of different groups.
 
 
-**1. Permutations and Combinations** - Lady Tasting Tea experiment with twelve cups of tea. Six have the milk in first and the other six having tea in first. A person claims they have the special power of being able to tell whether the tea or the milk went into a cup first upon tasting it.
-Calculate, using Python, the probability that they select the correct six cups.
+**2. Project Jupyter Notebook**
 
-Suppose, now, you are willing to accept one error. Once they select the six cups they think had the milk in first, you will give them the benefit of the doubt should they have selected at least five of the correct cups. Calculate the probability, assuming they have no special powers, that the person makes at most one error.
+This notebook demonstrates how to load and analyze the PlantGrowth dataset from R. The analysis involves exploring the relationship between plant growth in different treatment groups. It covers:
 
-Would you accept two errors? Explain.
+- t-test anlysis to determine the difference between the two treatment groups trt1 and trt2.
+- Performing ANOVA to determine difference between the three treatment groups ctrl, trt1, and trt2.
 
-**2. numpy's Normal Distribution** - Generate a sample of one hundred thousand values using the function with mean 10.0 and standard deviation 3.0. Use the scipy.stats.shapiro() function to test whether your sample came from a normal distribution. Explain the results and output.
+## Prerequisites
 
+Before running the notebooks, you will need to set up your environment. This repository can be run using Python, Anaconda, and Visual Studio Code.
 
-**3. t-Test Calculation** - Use python to calculate the t-statistic based on the dataset containing resting heart rates for patients before and after embarking on a two-week exercise program. Compare it to the value given by scipy.stats
+## How to run the Notebooks
 
-**4. ANOVA** - In this test we will estimate the probability of committing a type II error in specific circumstances. Create a variable called no_type_ii and set it to 0. Now use a loop to perform the following test 10,000 times.
-Use numpy.random.normal to generate three samples with 100 values each. Give each a standard deviation of 0.1. Give the first sample a mean of 4.9, the second a mean of 5.0, and the third a mean of 5.1.
-Perform one-way anova on the three samples and add 1 to no_type_ii whenever a type II error occurs.
+To quickly run the notebooks on your local machine, follow these steps:
 
-## Project
+**1. Clone the repository:**
 
-A project.ipynb notebook that analyzes the PlantGrowth R dataset. A short description of it is on Vicent Arel-Bundock's Rdatasets page. The dataset contains two main variables, a treatment group and the weight of plants within those groups.
+````bash
+git clone https://github.com/PCM11/applied-statistics
+````
 
-Perform t-tests and ANOVA on this dataset while describing the dataset and explaining your work.
+**2. Download Anaconda:**
 
-## Installations
+Download [Anaconda](https://www.anaconda.com) to create a virtual environment with the necessary dependencies. This ensures compatibility with the required packages.
 
-I used [openincolab.com](https://openincolab.com/) to generate the following clickable link. It opens the `tasks.ipynb` notebook 
+**3. Visual Studio Code:**
+
+Download [Visual Studio Code](https://code.visualstudio.com/).
+
+- Open Visual Studio Code (VS Code) and open the folder containing the repository.
+
+- Open the Jupyter notebook files and run the cells.
+
+**4. Requirements:**
+
+This repository includes a requirements.txt file, which contains all the necessary Python packages. To install the dependencies, run:
+
+```bash
+pip install -r requirements.txt
+```
+The requirements.txt includes the following packages:
+
+- numpy
+- scipy
+- pandas
+- matplotlib
+- seaborn
+- jupyter
+- scipy
+- statsmodel
+
+**5. Google Colab:**
+
+I used [openincolab.com](https://openincolab.com/)
+to generate the following clickable link. It opens the 
+`tasks.ipynb` notebook 
 in [Google Colab](https://colab.research.google.com/github/PCM11/applied-statistics/blob/main/tasks.ipynb).
-
-To further explore this dataset you need to download python, which can be installed through [anaconda](https://www.anaconda.com
-download), and notebook editor, which can be found in [Visual Studio Code](https://code.visualstudio.com/)
-
-## Analysis
-
-I imported Python libraries to analyse the data.
-
-- Pandas - for data manipulation and analysis. It allo
-us to investigate CSV files, amongst other features.
-
-- Matplotlib - for data visualisation and graphical 
-plotting
-
-- Seaborn - built on top of matplotlib with similar 
-functionalities
-
-- Numpy - to perform  wide variety of mathematical 
-operations on arrays
-
-- Math - for mathematical functions from the standard library.
-
-- Itertools -for permutations and combinations.
-
-- Random -for random selections.
-
-- Scipy - for statistics
-
-- Statsmodel - for statistical models

@@ -1,14 +1,22 @@
 # Applied Statistics
 **by: Phumi Tshidi (phumitshidi@gmail.com)**
 
-<img src="https://ccap.co.ke/wp-content/uploads/2021/01/Applied-Statistics.jpg" width="350" height="300">
+<img src="https://ccap.co.ke/wp-content/uploads/2021/01/Applied-Statistics.jpg" width="450" height="300">
 
-## About the repository
+# Key Sections
+
+- **Overview:** Summarises the notebook.
+- **Contents:** Describes the files and their purposes.
+-**Usage Instructions:** Explains what the notebook does and how to interact with it.
+- **Requirements:** Lists dependencies required to run the notebook.
+- **Running the Jupyter Notebook:** Provides instructions for running the notebook using both Anaconda and Visual Studio Code.
+- **Conclusion**: Provides the reader with an outcome
+
+## Overview
 
 This repository contains various statistical tasks and analyses implemented in tasks Jupyter notebook, aimed at providing practical examples of commonly used statistical methods.
 
-The project Jupyter notebook performs an analysis on the
-PlantGrowth dataset from R.
+The project Jupyter notebook performs an analysis on the PlantGrowth dataset from R.
 
 ## Contents
 
@@ -24,7 +32,6 @@ This notebook contains a series of statistical tasks and exercises that demonstr
 
 - **ANOVA (Analysis of Variance):** Conduct an ANOVA test to compare the means of different groups.
 
-
 **2. Project Jupyter Notebook**
 
 This notebook demonstrates how to load and analyze the PlantGrowth dataset from R. The analysis involves exploring the relationship between plant growth in different treatment groups. It covers:
@@ -32,53 +39,106 @@ This notebook demonstrates how to load and analyze the PlantGrowth dataset from 
 - t-test anlysis to determine the difference between the two treatment groups trt1 and trt2.
 - Performing ANOVA to determine difference between the three treatment groups ctrl, trt1, and trt2.
 
-## Prerequisites
+## Requirements
 
-Before running the notebooks, you will need to set up your environment. This repository can be run using Python, Anaconda, and Visual Studio Code.
+Before running the notebook, ensure you have the following installed:
+
+- [Python](https://www.python.org/downloads/) (version 3.12 or higher) also available through anaconda.
+- Jupyter Notebook
+- [Anaconda] (https://www.anaconda.com/download) - recommended for managing environments
+- [Visual Studio Code](https://code.visualstudio.com/) - for editing and running Jupyter notebooks
+
+You can install all required dependencies by running:
 
 ## How to run the Notebooks
 
-To quickly run the notebooks on your local machine, follow these steps:
+There are two main ways to run the notebook: using **Anaconda** or **Visual Studio Code**.
 
-**1. Clone the repository:**
+### 1. Running with Anaconda
 
-````bash
-git clone https://github.com/PCM11/applied-statistics
-````
+If you're using Anaconda, follow these steps:
 
-**2. Download Anaconda:**
+1. **Clone this repository** to your local machine:
 
-Download [Anaconda](https://www.anaconda.com) to create a virtual environment with the necessary dependencies. This ensures compatibility with the required packages.
+    ```bash
+    git clone https://github.com/PCM11/applied-statistics
+    ```
 
-**3. Visual Studio Code:**
+2. **Navigate to the project directory**:
 
-Download [Visual Studio Code](https://code.visualstudio.com/).
+    ```bash
+    cd applied-statistics
+    ```
 
-- Open Visual Studio Code (VS Code) and open the folder containing the repository.
+3. **Create a new Conda environment** (optional but recommended) with the necessary dependencies:
 
-- Open the Jupyter notebook files and run the cells.
+    ```bash
+    conda create -n tasks python=3.12
+    conda create -n project python=3.12
+    ```
 
-**4. Requirements:**
+4. **Activate the environment**:
 
-This repository includes a requirements.txt file, which contains all the necessary Python packages. To install the dependencies, run:
+    ```bash
+    conda activate tasks
+    conda activate project
+    ```
 
-```bash
-pip install -r requirements.txt
-```
-The requirements.txt includes the following packages:
+5. **Install dependencies** from `requirements.txt`:
 
-- numpy
-- scipy
-- pandas
-- matplotlib
-- seaborn
-- jupyter
-- scipy
-- statsmodel
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+6. **Launch Jupyter Notebook**:
+
+    ```bash
+    jupyter notebook
+    ```
+
+    This will open Jupyter in your web browser. Navigate to `tasks.ipynb`or `project.ipynb` and start working with the notebook.
+
+### 2. Running with Visual Studio Code
+
+If you prefer using Visual Studio Code:
+
+1. **Clone the repository** to your local machine:
+
+    ```bash
+    git clone https://github.com/PCM11/applied-statistics
+    ```
+
+2. **Navigate to the project directory**:
+
+    ```bash
+    cd applied-statistics
+    ```
+
+3. **Open the folder** in Visual Studio Code:
+
+    ```bash
+    code .
+    ```
+
+4. **Install the Python extension** (if not already installed) in Visual Studio Code.
+
+5. **Install the dependencies** by opening a terminal in Visual Studio Code and running:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+6. **Install the Jupyter extension** in Visual Studio Code.
+
+7. **Open the Jupyter notebook** (`tasks.ipynb` or `project.ipynb`) in Visual Studio Code, and the notebook interface will be available to run cells interactively.
+
+### 3. Running with Google Colab
+
+The `tasks.ipynb` can also be found in [Google Colab](https://colab.research.google.com/github/PCM11/applied-statistics/blob/main/tasks.ipynb).
+
+I used [openincolab.com](https://openincolab.com/)
+to generate a clickable link.
 
 **5. Google Colab:**
 
-I used [openincolab.com](https://openincolab.com/)
-to generate the following clickable link. It opens the 
-`tasks.ipynb` notebook 
-in [Google Colab](https://colab.research.google.com/github/PCM11/applied-statistics/blob/main/tasks.ipynb).
+## Conclusion

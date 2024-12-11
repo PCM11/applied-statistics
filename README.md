@@ -5,12 +5,12 @@
 
 # Key Sections
 
-- **Overview:** Summarises the notebook.
-- **Contents:** Describes the files and their purposes.
--**Usage Instructions:** Explains what the notebook does and how to interact with it.
+- **Overview:** Summarises the notebooks.
+- **Contents:** Describes the tasks and their purposes.
 - **Requirements:** Lists dependencies required to run the notebook.
-- **Running the Jupyter Notebook:** Provides instructions for running the notebook using both Anaconda and Visual Studio Code.
-- **Conclusion**: Provides the reader with an outcome
+- **Usage Instructions:** Explains what the notebook does and how to interact with it.
+- **Running the Jupyter Notebook:** Provides instructions for running the notebook using both Anaconda, Visual  Studio Code or Google Colab.
+- **Conclusion**: Provides the reader with the outcome.
 
 ## Overview
 
@@ -138,7 +138,5 @@ The `tasks.ipynb` can also be found in [Google Colab](https://colab.research.goo
 
 I used [openincolab.com](https://openincolab.com/)
 to generate a clickable link.
-
-**5. Google Colab:**
 
 ## Conclusion

@@ -3,9 +3,9 @@
 
 <img src="https://ccap.co.ke/wp-content/uploads/2021/01/Applied-Statistics.jpg" width="450" height="300">
 
-# Key Sections
+## Key Section
 
-- **Overview:** Summarises the notebooks.
+- **Overview:** Summary of the notebook.
 - **Contents:** Describes the tasks and their purposes.
 - **Requirements:** Lists dependencies required to run the notebook.
 - **Usage Instructions:** Explains what the notebook does and how to interact with it.

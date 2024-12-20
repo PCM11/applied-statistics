@@ -140,3 +140,7 @@ I used [openincolab.com](https://openincolab.com/)
 to generate a clickable link.
 
 ## Conclusion
+
+This repository demonstrates key statistical concepts and techniques, providing practical, hands-on applications to reinforce theoretical understanding. The exercises on permutations and combinations illustrate foundational principles of combinations while the simulation of normal distributions using NumPy highlights its importance in statistical modeling.
+
+The hypothesis testing sections, provide valuable insights into comparing sample groups and analyzing variance across multiple datasets. The exploration of the PlantGrowth dataset from R exemplifies real-world applications, showcasing how these statistical tools can uncover meaningful relationships between treatment groups.
